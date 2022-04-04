@@ -7,4 +7,4 @@ function checkEven(num) {
     return num%2!=0;
 }
 
-console.log(listaNumeros[1]);
+console.log(numerosOrdenados[1]);
