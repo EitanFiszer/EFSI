@@ -3,10 +3,12 @@ let arrayDuplicada = data.concat(data);
 let arrayObj=[];
 
 for(let i=0;i<arrayDuplicada.length;i++){
-    let obj={
-        orig:arrayDuplicada[i],
-        mod: Math.sqrt(arrayDuplicada[i])
+    if(arrayDuplicada[i]>=0){
+        let obj={
+            orig:arrayDuplicada[i],
+            mod: parseFloat(Math.sqrt(arrayDuplicada[i]).toFixed(2))
+        }
+        arrayObj.push(obj);
     }
-    arrayObj.push(obj);
 }
 console.log(arrayObj);
