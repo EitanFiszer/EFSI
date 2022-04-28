@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/AlanGarber/EFSI-01#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.18.0"
   }
 }
