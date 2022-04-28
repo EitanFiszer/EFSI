@@ -22,7 +22,7 @@ const crearCarton=()=>{
                 }
             carton[i] = num;
         }
-        carton.sort((a, b) => b - a);
+        carton.sort((a, b) => a - b);
         for(let i=0; i<100; i++){
             vecPelotas[i]=0;
         }
